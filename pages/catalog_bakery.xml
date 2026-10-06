@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE catalog SYSTEM "catalog.dtd">
+<catalog>
+    <cake id="1">
+        <name>Chocolate Cupcake</name>
+        <category>Bánh Nướng</category>
+        <price>45000</price>
+        <status>Còn hàng</status>
+    </cake>
+    <cake id="2">
+        <name>Butter Croissant</name>
+        <category>Bánh Nướng</category>
+        <price>35000</price>
+        <status>Còn hàng</status>
+    </cake>
+    <cake id="3">
+        <name>Strawberry Cheesecake</name>
+        <category>Bánh Lạnh</category>
+        <price>65000</price>
+        <status>Hot</status>
+    </cake>
+</catalog>

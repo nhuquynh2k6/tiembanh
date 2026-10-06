@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ingredients SYSTEM "ingredients.dtd">
+<ingredients>
+    <product id="1">
+        <name>Chocolate Cupcake</name>
+        <list>
+            <item>Bột cacao nguyên chất</item>
+            <item>Bơ lạt</item>
+            <item>Socola Bỉ 70%</item>
+        </list>
+        <warning>Chứa Gluten, Sữa, Trứng</warning>
+    </product>
+    <product id="2">
+        <name>Butter Croissant</name>
+        <list>
+            <item>Bột mì</item>
+            <item>Bơ Pháp</item>
+            <item>Men tươi</item>
+        </list>
+        <warning>Chứa Gluten, Sữa</warning>
+    </product>
+</ingredients>

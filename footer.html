@@ -1,0 +1,111 @@
+<style>
+  .main-footer {
+    background-color: #ffffff;
+    border-top: 1px solid #eaeaea;
+  }
+  .footer-brand {
+    color: #14452F !important;
+  }
+  .footer-links a {
+    transition: color 0.2s ease;
+  }
+  .footer-links a:hover {
+    color: #14452F !important;
+    font-weight: 500;
+  }
+  .footer-socials a {
+    width: 32px;
+    height: 32px;
+    padding: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-color: #eaeaea;
+    color: #666666;
+    transition: all 0.3s ease;
+  }
+  .footer-socials a:hover {
+    background-color: #14452F;
+    color: #ffffff;
+    border-color: #14452F;
+  }
+  .btn-brand-footer {
+    background-color: #14452F;
+    border: 1px solid #14452F;
+    transition: background-color 0.2s ease;
+  }
+  .btn-brand-footer:hover {
+    background-color: #0b291c;
+  }
+  .main-footer .form-control:focus {
+    border-color: #14452F;
+    box-shadow: none;
+  }
+</style>
+
+<footer class="main-footer pt-5 pb-3">
+  <div class="container" style="max-width: 1040px;">
+    <div class="row g-4">
+      
+      <div class="col-12 col-md-4">
+        <h5 class="footer-brand fw-bold mb-3">
+          <i class="bi bi-cake2 me-2"></i> Three Girl Bakery
+        </h5>
+        <p class="small text-secondary lh-lg mb-3">
+          Nơi tụi mình gửi gắm tình yêu qua từng chiếc bánh ngọt thơm ngon, mềm xốp. Cam kết sử dụng nguyên liệu tươi ngon thượng hạng mỗi ngày.
+        </p>
+        <div class="d-flex gap-2 footer-socials">
+          <a href="#" class="btn btn-sm btn-outline-secondary rounded-circle"><i class="bi bi-facebook"></i></a>
+          <a href="#" class="btn btn-sm btn-outline-secondary rounded-circle"><i class="bi bi-instagram"></i></a>
+          <a href="#" class="btn btn-sm btn-outline-secondary rounded-circle"><i class="bi bi-tiktok"></i></a>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-2">
+        <h6 class="text-uppercase fw-bold text-secondary small mb-3" style="letter-spacing: 0.5px;">Khám phá</h6>
+        <ul class="list-unstyled footer-links m-0 p-0">
+          <li class="mb-2"><a href="#" class="text-decoration-none small text-dark">Trang chủ</a></li>
+          <li class="mb-2"><a href="#" class="text-decoration-none small text-dark">Menu bánh</a></li>
+          <li class="mb-2"><a href="#" class="text-decoration-none small text-dark">Hệ thống cửa hàng</a></li>
+          <li class="mb-2"><a href="#" class="text-decoration-none small text-dark">Tin tức mới nhất</a></li>
+        </ul>
+      </div>
+
+      <div class="col-6 col-md-3">
+        <h6 class="text-uppercase fw-bold text-secondary small mb-3" style="letter-spacing: 0.5px;">Chính sách</h6>
+        <ul class="list-unstyled footer-links m-0 p-0">
+          <li class="mb-2"><a href="#" class="text-decoration-none small text-dark">Chính sách thành viên</a></li>
+          <li class="mb-2"><a href="#" class="text-decoration-none small text-dark">Ưu đãi đổi thưởng</a></li>
+          <li class="mb-2"><a href="#" class="text-decoration-none small text-dark">Điều khoản dịch vụ</a></li>
+          <li class="mb-2"><a href="#" class="text-decoration-none small text-dark">Chính sách bảo mật</a></li>
+        </ul>
+      </div>
+
+      <div class="col-12 col-md-3">
+        <h6 class="text-uppercase fw-bold text-secondary small mb-3" style="letter-spacing: 0.5px;">Nhận tin khuyến mãi</h6>
+        <p class="small text-secondary mb-3">Đăng ký để không bỏ lỡ những ưu đãi bánh ngọt hấp dẫn.</p>
+        <form onsubmit="event.preventDefault(); alert('🎉 Đăng ký nhận bản tin thành công!');" class="mb-3">
+          <div class="input-group">
+            <input type="email" class="form-control form-control-sm border-end-0 border-secondary-subtle" placeholder="Email của bạn..." required style="border-radius: 10px 0 0 10px; font-size: 0.85rem;">
+            <button class="btn btn-sm btn-brand-footer text-white px-3" type="submit" style="border-radius: 0 10px 10px 0;"><i class="bi bi-send"></i></button>
+          </div>
+        </form>
+        <div class="small text-secondary">
+          <i class="bi bi-telephone me-2"></i> Hotline: 1900 xxxx
+        </div>
+      </div>
+
+    </div>
+
+    <hr class="text-muted my-4 opacity-25">
+
+    <div class="row align-items-center">
+      <div class="col-12 col-md-6 text-center text-md-start mb-2 mb-md-0">
+        <p class="small text-secondary m-0">&copy; 2026 Three Girl Bakery. All rights reserved.</p>
+      </div>
+      <div class="col-12 col-md-6 text-center text-md-end">
+        <p class="small text-secondary m-0" style="font-size: 0.8rem;">Thiết kế với <i class="bi bi-heart-fill text-danger small"></i> từ Bootstrap v5.3</p>
+      </div>
+    </div>
+  </div>
+</footer>

@@ -1,0 +1,7 @@
+<!ELEMENT ingredients (product+)>
+<!ELEMENT product (name, list, warning)>
+<!ATTLIST product id ID #REQUIRED>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT list (item+)>
+<!ELEMENT item (#PCDATA)>
+<!ELEMENT warning (#PCDATA)>
